@@ -4,6 +4,23 @@
     "node": ">=5.0 <6",
     "npm": ">=3.3 <4"
   },
+  "name": "movtinder",
+  "version": "1.0.0",
+  "description": "A tinder-like web app for movies",
+  "main": "build/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9ic/movtinder.git"
+  },
+  "keywords": [
+    "Tinder for Movies"
+  ],
+  "author": "9ic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9ic/movtinder/issues"
+  },
+  "homepage": "https://github.com/9ic/movtinder#readme", 
   "dependencies": {
     "babel-core": "5.8.34",
     "bluebird": "3.1.1",
