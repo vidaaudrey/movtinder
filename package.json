@@ -1,17 +1,8 @@
 {
-  "private": true,
-  "engines": {
-    "node": ">=5.0 <6",
-    "npm": ">=3.3 <4"
-  },
   "name": "movtinder",
   "version": "1.0.0",
   "description": "A tinder-like web app for movies",
-  "main": "build/server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/9ic/movtinder.git"
-  },
+  "main": "server.js",
   "keywords": [
     "Tinder for Movies"
   ],
@@ -20,7 +11,12 @@
   "bugs": {
     "url": "https://github.com/9ic/movtinder/issues"
   },
-  "homepage": "https://github.com/9ic/movtinder#readme", 
+  "homepage": "https://github.com/9ic/movtinder#readme",
+  "private": true,
+  "engines": {
+    "node": ">=5.0 <6",
+    "npm": ">=3.3 <4"
+  },
   "dependencies": {
     "babel-core": "5.8.34",
     "bluebird": "3.1.1",
@@ -33,6 +29,7 @@
     "front-matter": "2.0.1",
     "history": "1.16.0",
     "jade": "1.11.0",
+    "lodash": "^3.10.1",
     "node-fetch": "1.3.3",
     "normalize.css": "3.0.3",
     "react": "0.14.3",
