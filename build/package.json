@@ -27,6 +27,7 @@
     "fbjs": "0.5.1",
     "flux": "2.1.1",
     "front-matter": "2.0.1",
+    "gulp": "^3.9.0",
     "history": "1.16.0",
     "jade": "1.11.0",
     "lodash": "^3.10.1",
@@ -58,6 +59,7 @@
     "git-push": "^0.1.1",
     "git-repository": "^0.1.1",
     "glob": "^6.0.1",
+    "gulp-gh-pages": "^0.5.4",
     "isomorphic-style-loader": "0.0.5",
     "jest-cli": "^0.8.2",
     "jscs": "^2.7.0",
@@ -90,11 +92,12 @@
     "csslint": "csscomb src/components --lint --verbose",
     "csscomb": "csscomb src/components --verbose",
     "test": "eslint src && jest",
-    "clean": "./node_modules/.bin/babel-node tools/run clean",
-    "copy": "./node_modules/.bin/babel-node tools/run copy",
-    "bundle": "./node_modules/.bin/babel-node tools/run bundle",
-    "build": "./node_modules/.bin/babel-node tools/run build",
-    "deploy": "./node_modules/.bin/babel-node tools/run deploy",
+    "clean": "babel-node tools/run clean",
+    "copy": "babel-node tools/run copy",
+    "bundle": "babel-node tools/run bundle",
+    "build": "babel-node tools/run build",
+    "backup-deploy": "babel-node tools/run deploy",
+    "deploy": "npm run build --release && gulp deploy",
     "start": "node server.js"
   }
 }
