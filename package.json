@@ -96,8 +96,8 @@
     "copy": "babel-node tools/run copy",
     "bundle": "babel-node tools/run bundle",
     "build": "babel-node tools/run build",
-    "deploy": "babel-node tools/run deploy",
-    "hdeploy": "npm run build && gulp deploy",
+    "backup-deploy": "babel-node tools/run deploy",
+    "deploy": "npm run build --release && gulp deploy",
     "start": "node server.js"
   }
 }
