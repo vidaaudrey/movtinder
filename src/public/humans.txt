@@ -1,15 +1,27 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
 # TEAM
+    
+    Fullstack Engineer: Audrey Li
+    From: Chengdu, China
+    Github: vidaaudrey 
+    Currently at: SF, USA 
 
-    <name> -- <role> -- <twitter>
+    Project Owner: Ahmed Modan
+    Github: ahmedmodan
+
+    Scrumb Master: Benji Marinacci
+    Github: bcmarinacci
+
+    Engineer: Christopher Decker
+    Github: altroncwd
+
 
 # THANKS
 
-    <name>
+    MakerSquare 
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5, JavaScript
     React, Flux, SuperAgent
+    Jade, SASS, Node 
+    Express, Mongodb, Restful
