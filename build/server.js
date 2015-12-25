@@ -104,6 +104,7 @@ module.exports =
   // Register API middleware
   // -----------------------------------------------------------------------------
   server.use('/api/content', __webpack_require__(63));
+  console.log(process.env.TMDB_KEY, process.env.MONGODB);
   
   //
   // Register server-side rendering middleware
@@ -1283,7 +1284,12 @@ module.exports =
   var host = process.env.WEBSITE_HOSTNAME || 'localhost:' + port;
   exports.host = host;
   var googleAnalyticsId = 'UA-71737182-1';
+  
   exports.googleAnalyticsId = googleAnalyticsId;
+  var TMDB_KEY = process.env.TMDB_KEY;
+  exports.TMDB_KEY = TMDB_KEY;
+  var TMDB_BASEURL = 'http://api.themoviedb.org/3/movie/';
+  exports.TMDB_BASEURL = TMDB_BASEURL;
 
 /***/ },
 /* 15 */

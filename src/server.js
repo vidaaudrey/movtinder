@@ -28,6 +28,7 @@ server.use(express.static(path.join(__dirname, 'public')));
 // Register API middleware
 // -----------------------------------------------------------------------------
 server.use('/api/content', require('./api/content'));
+console.log(process.env.TMDB_KEY, process.env.MONGODB);
 
 //
 // Register server-side rendering middleware

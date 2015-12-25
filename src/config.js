@@ -10,3 +10,7 @@
 export const port = process.env.PORT || 5000;
 export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
 export const googleAnalyticsId = 'UA-71737182-1';
+
+export const TMDB_KEY = process.env.TMDB_KEY;
+export const TMDB_BASEURL = 'http://api.themoviedb.org/3/movie/';
+

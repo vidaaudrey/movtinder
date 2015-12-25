@@ -6,7 +6,7 @@ MovTinder is a tinder-like web app for movies.
   
   * Follow the [getting started guide](./docs/getting-started.md) to download and run the project
   * Check the [code recipes](./docs/recipes) used in this boilerplate, or share yours
-  * Check [Wiki](./wiki/) page for more information 
+  * Check [Wiki](https://github.com/vidaaudrey/movtinder/wiki) page for more information 
   * [Demo](https://movtinder.herokuapp.com/)
 
 ### Directory Layout
